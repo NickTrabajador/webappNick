@@ -190,6 +190,7 @@
   .cards-container {
     flex-direction: column;
     padding: 15px;
+    align-items: center;
   }
 
   .card {
@@ -220,6 +221,8 @@
   .cards-container {
     flex-direction: column;
     padding: 10px;
+    align-items: center;
+    
   }
 
   .card {
@@ -250,6 +253,8 @@
   .cards-container {
     flex-direction: column;
     padding: 5px;
+    align-items: center;
+    
   }
 
   .card {
