@@ -319,11 +319,13 @@
     align-items: center;
     width: 100%;
     overflow: hidden;
+  
   }
 
   .card {
     width: 80%; /* Asegura que las cards sean más pequeñas en pantallas medianas */
     margin-bottom: 20px;
+    
   }
 
   .btn {
