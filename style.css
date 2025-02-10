@@ -300,9 +300,41 @@ body {
 
   }
 
-  /* Media Queries */
+  /* Media Queries específicas para Galaxy Z Fold 5 */
+@media (max-width: 1536px) and (min-width: 768px) {
+  /* Ajustes para pantallas más grandes como las de dispositivos plegables */
+  .navbar-nav .nav-link {
+    font-size: 22px; /* Ajuste más grande para pantallas más grandes */
+  }
+
+  .carousel-item img {
+    height: 350px; /* Ajustar altura de las imágenes */
+    width: 100%; /* Asegurarse de que las imágenes no se estiren */
+  }
+
+  .Resumen-1, .Resumen-2, .Resumen-3, .Resumen-4, .Resumen-5 {
+    font-size: 18px; /* Texto más pequeño para pantallas más grandes */
+    padding: 25px;
+  }
+
+  .cards-container {
+    flex-direction: row; /* Alineación horizontal en lugar de vertical */
+    justify-content: space-between; /* Mejor distribución de las tarjetas */
+    padding: 30px 20px;
+  }
+
+  .card {
+    width: 48%; /* Ajustar el tamaño de las tarjetas */
+    margin-bottom: 15px;
+  }
+
+  .title-1, .title-2, .title-3, .title-4 {
+    font-size: 24px; /* Tamaño de fuente optimizado */
+  }
+}
+
+/* Para pantallas más pequeñas */
 @media (max-width: 1024px) {
- 
   .navbar-nav .nav-link {
     font-size: 20px;
   }
@@ -330,7 +362,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .navbar-nav .nav-link {
     font-size: 18px;
   }
@@ -353,7 +384,6 @@ body {
     padding: 30px;
     align-items: center;
     width: 100%;
-    
   }
 
   .card {
@@ -363,7 +393,6 @@ body {
 }
 
 @media (max-width: 480px) {
-  /* Ajustes para pantallas de teléfonos pequeños (ej. iPhone SE) */
   .navbar-nav .nav-link {
     font-size: 16px;
   }
@@ -385,7 +414,7 @@ body {
     flex-direction: column;
     padding: 20px;
     align-items: center;
-    width: 100%
+    width: 100%;
   }
 
   .card {
