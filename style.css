@@ -117,7 +117,7 @@
     flex-wrap: wrap; 
     background-color: #4CAF50;
     padding: 20px 0px 0px 20px;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.5s medium;
     overflow: hidden;
 }
  
