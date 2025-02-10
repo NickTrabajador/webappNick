@@ -116,9 +116,9 @@
     background-color: #4CAF50;
     margin: 0px;
     padding: 20px 0px 20px 0px;
-
-    
+    transition: background-color 0.5s medium; /* Transición suave */ 
   }
+ 
 
   .card-title{
     color: #D84315;
