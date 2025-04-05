@@ -161,7 +161,7 @@
   color: black;
   transform: scale(1.05);
   /* Agranda el botón ligeramente */
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease;
   /* Suaviza la transición */
 }
 
