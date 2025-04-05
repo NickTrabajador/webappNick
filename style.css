@@ -157,10 +157,12 @@
 
 
 .btn-video:hover {
-background-color: #1976D2;
-color: black;
-transform: scale(1.05);  /* Agranda el botón ligeramente */
-transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;  /* Suaviza la transición */
+  background-color: #1976D2;
+  color: black;
+  transform: scale(1.05);
+  /* Agranda el botón ligeramente */
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  /* Suaviza la transición */
 }
 
 
