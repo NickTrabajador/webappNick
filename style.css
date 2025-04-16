@@ -106,17 +106,17 @@
 .card {
   display: flex;
   align-items: center;
-  border: 5px solid #FF9800;
+  border: 7px solid #F57C00;
   max-width: 100%;
   margin-bottom: 20px;
-
+  background-color: #ffd744;
 }
 
 .cards-container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: #4CAF50;
+  background-color: #48a74b;
   padding: 20px 0px 0px 20px;
   transition: background-color 0.5s medium;
   overflow: hidden;
@@ -124,19 +124,21 @@
 
 
 .card-title {
-  color: #D84315;
+  color:  #BF360C;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 28px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+  text-align: center;
 }
 
 .card-text {
   font-size: 17px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 
 .btn {
