@@ -343,10 +343,11 @@
     align-items: center;
     gap: 20px;
     overflow: hidden;
+    width: 100%;
   }
 
   .card {
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
   }
 
