@@ -348,13 +348,15 @@
   .card {
     width: 90%;
     margin-bottom: 20px;
+  }
 
+  .card-text{
+    font-size: 22px;
   }
 
   .btn {
     width: 95%;
     margin: 0 20px;
-
   }
 }
 
