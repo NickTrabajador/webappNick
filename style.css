@@ -16,6 +16,11 @@
     height: 100px;
   }
 
+  .navbar.sticky-top {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  }
+  
+
   .Resumen-1{
     background-color: #FFC107;
     color: black;
