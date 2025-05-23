@@ -1,5 +1,5 @@
 .navbar-nav .nav-link {
-<<<<<<< HEAD
+
     transition: background-color 0.4s ease, color 0.4s ease;
     font-size: 24px;
   }
@@ -45,7 +45,6 @@
       width: 100%;
     }
   }
-
 
 
   .carousel-item img {
@@ -98,6 +97,7 @@
     animation: pulse-1 4s infinite;
   }
 
+
   @keyframes pulse-1{
     0% {
       background-color: #8BC34A;
@@ -125,10 +125,8 @@
     padding: 20px 0px 0px 20px;
     transition: background-color 0.5s medium;
     overflow: hidden;
-=======
-  transition: background-color 0.4s ease, color 0.4s ease;
-  font-size: 24px;
->>>>>>> b5318f6d5d599d8e388a9642c035f5a8061d9a10
+   transition: background-color 0.4s ease, color 0.4s ease;
+   font-size: 24px;
 }
 
 .navbar-nav .nav-link:hover {
@@ -286,16 +284,6 @@
 }
 
 
-.btn-video:hover {
-  background-color: #1976D2;
-  color: black;
-  transform: scale(1.05);
-  /* Agranda el botón ligeramente */
-  transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease;
-  /* Suaviza la transición */
-}
-
-
 .Resumen-3 {
   background-color:#4FC3F7;
   color: black;
@@ -446,6 +434,23 @@
   }
 
 }
+
+.card-img-top,
+.btn-video{
+  transition: transform 0.6s ease;
+  display: block;
+}
+
+
+.hover-container:hover .card-img-top,
+.hover-container:hover .btn-video,
+.hover-container:focus-within .card-img-top,
+.hover-container:focus-within .btn-video {
+transform: scale(1.05);
+}
+
+
+
 
 /* Media Queries */
 @media (max-width: 1025px) {
