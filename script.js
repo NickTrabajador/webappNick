@@ -37,3 +37,10 @@ function cajaRojo(event) {
         container.style.backgroundColor = "#66BB6A"; 
     }
 }
+
+window.addEventListener('load', function(){
+    setTimeout(() => {
+    document.getElementById('loader').style.display = 'none';
+    document.querySelector('.main-content').style.display = 'block';
+}, 2800);
+});
